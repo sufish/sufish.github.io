@@ -10,7 +10,7 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -79,23 +79,60 @@ a:after {
 
 
 .navbar {
-	font-weight: 800;
+	/*font-weight: 800;*/
 	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+}
+.navbar .navbar-header .log{
+    width: 60px;
+    height: 62px;
+    background: url('../img/log.png') no-repeat;
 }
 
 .navbar-inverse {
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+	background: #f7f7f7;
+	border-color: #e8e8e8;
+}
+
+.navbar-inverse .navbar-nav.navbar-left:first-child{
+    margin-left: 70px;
+}
+.navbar > .container .navbar-brand{
+    margin-left: -20px;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+    color: #1D89ED;
+	background: #f7f7f7;
+    height: 65px;
+}
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #1D89ED;
+    background-color: #f7f7f7;
+}
+
+.navbar-inverse .navbar-nav > li{
+    margin-right: 58px;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #1D89ED;
+}
+
+
+.navbar-inverse .navbar-nav > li .underline{
+    width: 100%;
+    border: 1px solid #1D89ED;
+    margin-top: 20px;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #999999;
+	color: #000;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -129,7 +166,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	/*background: url(../img/header-bg.jpg) no-repeat center top;*/
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -163,6 +200,16 @@ a:after {
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+}
+
+/*slider*/
+.swiper-container{
+    margin: 0;
+    width: 100%;
+    max-height: 600px;
+}
+.wrap-slide-item img{
+    padding-left: 5%;
 }
 
 /* Dark Grey Wrap */
@@ -227,7 +274,7 @@ a:after {
 
 /* Footer Wrap */
 #f {
-	background: #2d2d2d;
+	background: #ffffff;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -242,6 +289,14 @@ a:after {
 	color: #ff7878;
 }
 
+.f-underline{
+    border-top: 1px solid #CCCCCC;
+    width: 95%;
+    margin: 0 auto;
+}
+#f-t{
+   top: 4px;
+}
 /****** SECTIONS *****/
 
 .w {
