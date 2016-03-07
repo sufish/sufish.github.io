@@ -89,6 +89,9 @@ a:after {
 }
  /*响应式*/
 @media (min-width: 768px), (max-width: 768px) {
+    .col-lg-3 .layer{
+        margin: 0 auto;
+    }
     .left-center{
         margin-left: 15%;
     }
@@ -108,6 +111,7 @@ a:after {
     }
     .case-box {
         width: 100%;
+        margin: 0 auto;
     }
     .case-title{
         width: 179px;
@@ -129,6 +133,9 @@ a:after {
         width: auto;
         margin: 0 auto;
     }
+    .navbar-inverse .navbar-nav.navbar-left:first-child{
+        margin-left: 70px;
+    }
 }
 @media (min-width: 1200px) {
     .left-center{
@@ -148,6 +155,7 @@ a:after {
     }
     .case-box{
         width: 1200px;
+        margin-left: -45px;
     }
     .case-title{
         width: 394px;
@@ -220,8 +228,49 @@ a:after {
     }
 }
 
-
-
+.case-box .layer{
+    width: 300px;
+    height: 220px;
+}
+.case-box .layer .transparent—tape{
+    position: relative;
+    height: 95px;
+    top: 125px;
+    background:rgba(0,0,0,0.4) none repeat scroll !important;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+.case-box .layer .transparent—tape p{
+    /*position: static;*/
+    margin-bottom: -5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.case1-1{
+    background: url("../img/case1-1.jpg") no-repeat;
+}
+.case1-2{
+    background: url("../img/case1-2.jpg") no-repeat;
+}
+.case1-3{
+    background: url("../img/case1-3.jpg") no-repeat;
+}
+.case1-4{
+    background: url("../img/case1-4.jpg") no-repeat;
+}
+.case2-1{
+    background: url("../img/case2-1.jpg") no-repeat;
+}
+.case2-2{
+    background: url("../img/case2-2.jpg") no-repeat;
+}
+.case2-3{
+    background: url("../img/case2-3.jpg") no-repeat;
+}
+.case2-4{
+    background: url("../img/case2-4.jpg") no-repeat;
+}
 
 .navbar-inverse .navbar-brand i {
 	color: #ff7878;
